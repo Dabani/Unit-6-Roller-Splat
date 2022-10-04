@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public static GameManager singleton;
+    private GroundPiece[] allGroundPieces;
     void Start()
     {
-        
+        SetupNewLevel();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void SetupNewLevel()
     {
-        
+        allGroundPieces = FindObjectsOfType<GroundPiece>();
     }
 }
