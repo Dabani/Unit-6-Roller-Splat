@@ -3838,7 +3838,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1833295049}
-  speed: 15
+  speed: 2
+  minSwipeRecognition: 500
 --- !u!4 &1870354661 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8365284110513098851, guid: ec0d12436e8ff25499886312712010cd, type: 3}
