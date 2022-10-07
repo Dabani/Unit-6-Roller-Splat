@@ -384,7 +384,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 593018922}
-  m_RootOrder: 57
+  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &65939869
 BoxCollider:
@@ -1547,18 +1547,18 @@ Transform:
   - {fileID: 837751777}
   - {fileID: 1136613630}
   - {fileID: 772273262}
-  - {fileID: 1815105578}
-  - {fileID: 1016613764}
-  - {fileID: 138356471}
   - {fileID: 685707919}
-  - {fileID: 874838647}
+  - {fileID: 1016613764}
+  - {fileID: 65939868}
+  - {fileID: 1815105578}
+  - {fileID: 138356471}
   - {fileID: 2097099375}
-  - {fileID: 1639981278}
+  - {fileID: 874838647}
   - {fileID: 1620743501}
   - {fileID: 1254014179}
   - {fileID: 2106078714}
   - {fileID: 1218681137}
-  - {fileID: 65939868}
+  - {fileID: 1639981278}
   - {fileID: 960601079}
   - {fileID: 17340}
   - {fileID: 288717165}
@@ -5580,6 +5580,10 @@ PrefabInstance:
     - target: {fileID: 8216856938013442148, guid: 3ababe96b82af8b4ba1335ef1393eb90, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8216856938013442150, guid: 3ababe96b82af8b4ba1335ef1393eb90, type: 3}
+      propertyPath: speed
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8216856938013442152, guid: 3ababe96b82af8b4ba1335ef1393eb90, type: 3}
       propertyPath: m_Name
