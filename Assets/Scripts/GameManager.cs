@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
 
     private void NextLevel()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 30)
+        if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCount)
         {
             SceneManager.LoadScene(0);
         }
